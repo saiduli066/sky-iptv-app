@@ -1,0 +1,473 @@
+{
+  "Bangladesh": {
+    "Entertainment": [
+      {
+        "name": "ATN Bangla",
+        "url": "http://tvsen5.aynascope.net/atnbangla/index.m3u8"
+      },
+      {
+        "name": "Bangla Vision",
+        "url": "https://tvsen5.aynaott.com/banglavision/index.m3u8"
+      },
+      {
+        "name": "Boishakhi TV",
+        "url": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8"
+      },
+      {
+        "name": "Ekushey TV",
+        "url": "https://ekusheyserver.com/etvlivesn.m3u8"
+      },
+      {
+        "name": "Gazi TV",
+        "url": "http://tvn1.chowdhury-shaheb.com/gazitv/index.m3u8"
+      },
+      {
+        "name": "Maasranga TV",
+        "url": "http://tvsen5.aynascope.net/maasrangatv/index.m3u8"
+      },
+      {
+        "name": "My TV",
+        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8"
+      },
+      {
+        "name": "NAN TV",
+        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/nantv.stream/live-orgin/nantv.stream/playlist.m3u8"
+      },
+      {
+        "name": "Nexus TV",
+        "url": "https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8"
+      },
+      {
+        "name": "Rajdhani TV SD",
+        "url": "https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8"
+      },
+      {
+        "name": "RTV",
+        "url": "http://tvsen5.aynascope.net/RtvHD/index.m3u8"
+      }
+    ],
+    "News": [
+      {
+        "name": "DBC News",
+        "url": "http://tvn3.chowdhury-shaheb.com/dbc/index.m3u8"
+      },
+      {
+        "name": "News 21 Bangla TV",
+        "url": "http://103.190.133.68:1935/news21live/live/playlist.m3u8"
+      },
+      {
+        "name": "NTV",
+        "url": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8"
+      },
+      {
+        "name": "Duronto TV",
+        "url": "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8"
+      },
+      {
+        "name": "Deshi TV",
+        "url": "https://deshitv.deshitv24.net/live/myStream/playlist.m3u8"
+      }
+    ],
+    "Sports": [
+      {
+        "name": "T Sports",
+        "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8"
+      }
+    ],
+    "Movies/Dramas": [
+      {
+        "name": "Movie Bangla",
+        "url": "http://alvetv.com/moviebanglatv/8080/index.m3u8"
+      }
+    ],
+    "Other": [ 
+      {
+      "name": "Peace Tv Bangla",
+      "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8?sid=ktHjIQx6uU-6bYluqg0FtA"
+    },
+      {
+      "name": "Madani Channel Bangla ",
+      "url": "https://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-4689-a641-9200445b647f/master.m3u8"
+
+
+    },
+      {
+      "name": "Deen TV",
+      "url": "https://cd198.anystream.uk:9092/iqapp/d33ntv/playlist.m3u8"
+    }
+  ]
+  },
+  "India": {
+    "Bengali": {
+      "Entertainment": [
+       
+        {
+          "name": "Colors Bangla HD",
+          "url": "http://103.165.93.31:8095/colorsBangla/index.m3u8"
+        },
+        {
+          "name": "DD Bangla",
+          "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/7ff57cc9046b4c188b51a0d506f36e7f/index.m3u8"
+        },
+        {
+          "name": "Enterr 10 Bangla",
+          "url": "https://mumt07.tangotv.in/zHjX9OFlENTERR10BANGLA/index.m3u8"
+        },
+        {
+          "name": "Khushboo Bangla",
+          "url": "https://cdn.pishow.tv/ott/live/1473/master.m3u8"
+        },
+       
+        {
+          "name": "Sangeet Bangla",
+          "url": "https://cdn.pishow.tv/ott/live/1143/master.m3u8"
+        },
+        {
+          "name": "Star Jalsha HD",
+          "url": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starjalsha.smil/chunklist_b1928000.m3u8"
+        },
+        {
+          "name": "TV9 Bangla",
+          "url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/playlist.m3u8"
+        },
+        {
+          "name": "Zee Bangla HD",
+          "url": "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeBanglaHD.m3u8"
+        },
+        {
+          "name": "Zee Bangla Sonar",
+          "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD.m3u8"
+        },
+        {
+          "name": "Aakaash Aath",
+          "url": "https://tvsen5.aynascope.net/Wm9Lv2RjZGT6/index.m3u8"
+        }
+      ],
+      "News": [
+       
+       
+      ],
+      "Movies/Dramas": []
+    },
+    "Hindi": {
+      "Entertainment": [
+        {
+          "name": "Colors HD",
+          "url": "http://66.102.126.10:8000/play/a00a/index.m3u8"
+        },
+        {
+          "name": "Colors Rishtey Americas",
+          "url": "https://manatv.akamaized.net/090823/smil:ristheyamerica.smil/playlist.m3u8"
+        },
+        {
+          "name": "Colors Super",
+          "url": "https://d1rc86nwwc9fag.cloudfront.net/260723/smil:colorssuper1.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b"
+        },
+        {
+          "name": "Dangal 2",
+          "url": "https://live-dangal2.akamaized.net/liveabr/playlist.m3u8"
+        },
+        {
+          "name": "Pasand TV",
+          "url": "https://d1msejlow1t3l4.cloudfront.net/fta/pasand/playlist.m3u8"
+        },
+      
+        {
+          "name": "Sony Entertainment Television HD",
+          "url": "http://38.96.178.205/SONYHD/index.m3u8"
+        },
+        {
+          "name": "Sony Pal",
+          "url": "https://cloudplay-sonyliv.pages.dev/pal.m3u8"
+        },
+        {
+          "name": "Sony SAB HD",
+          "url": "https://cloudplay-sonyliv.pages.dev/sabhd.m3u8"
+        },
+        {
+          "name": "Sony Wah",
+          "url": "https://cloudplay-sonyliv.pages.dev/wah.m3u8"
+        },
+        {
+          "name": "StarPlus HD (1080i)",
+          "url": "http://202.70.146.135:8000/play/a009/index.m3u8"
+        },
+        {
+          "name": "Zee TV HD",
+          "url": "http://41.205.93.154/ZEE-TV/index.m3u8"
+        
+        },
+        {
+          "name": "Goldmines",
+          "url": "https://streams.tangotv.in/GOLDMINES/ORIGIN/index.m3u8"
+        }
+      ],
+      "News": [],
+      "Movies/Dramas": [
+        {
+          "name": "Colors Cineplex Bollywood",
+          "url": "http://202.70.146.135:8000/play/a058/index.m3u8"
+        },
+        {
+          "name": "Sony Max",
+          "url": "https://cloudplay-sonyliv.pages.dev/max.m3u8"
+        },
+        {
+          "name": "Sony Max HD",
+          "url": "https://cloudplay-sonyliv.pages.dev/maxhd.m3u8"
+        },
+      
+        {
+          "name": "Zee Cinema",
+          "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/NGCHD/default/NGCHD.m3u8"
+        }
+      ]
+    },
+    "Other": [
+
+       {
+         "name": "Star Sports 2 HD",
+         "url": "https://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8"
+       }
+    ,
+       {
+         "name": "Star Sports 2",
+         "url": "https://tvsen5.aynaott.com/cXPB2LKkErN9/index.m3u8"
+       }
+    ]
+  },
+  "Pakistan": {
+    "Entertainment": [
+      {
+        "name": "A-Plus TV",
+        "url": "http://115.42.65.142:9981/stream/channelid/113328724"
+      },
+      {
+        "name": "Aaj Entertainment",
+        "url": "https://ml-pull-dvc-myco.io:2096/AAJ_ENTERTAINMENT/index.m3u8"
+      },
+      {
+        "name": "Abb Takk",
+        "url": "http://115.42.65.142:9981/stream/channelid/852828604"
+      },
+      {
+        "name": "Apna Channel",
+        "url": "http://115.42.65.142:9981/stream/channelid/1273966657"
+      },
+      {
+        "name": "ATV",
+        "url": "http://115.42.65.142:9981/stream/channelid/299762256"
+      },
+      {
+        "name": "aurLife HD",
+        "url": "http://124.109.47.101/hls/stream1.m3u8"
+      },
+      {
+        "name": "AVT Khyber",
+        "url": "http://115.42.65.142:9981/stream/channelid/1380586642"
+      },
+      {
+        "name": "Bol Entertainment HD",
+        "url": "https://vodzong.mjunoon.tv:8087/streamtest/Channel5-159-4/playlist.m3u8"
+      },
+      {
+        "name": "BSTV",
+        "url": "https://lbgo.bozztv.com/ssh101/ssh101/bstv/playlist.m3u8"
+      },
+      {
+        "name": "Capital TV",
+        "url": "https://cdn4.mjunoon.tv:8087/streamtest/111M/chunks.m3u8"
+      },
+      {
+        "name": "City 41",
+        "url": "http://163.61.227.29:8000/play/a02r/index.m3u8"
+      },
+      {
+        "name": "Express Entertainment",
+        "url": "https://ml-pull-dvc-myco.io:2096/EXPRESS_ENTERTAINMENT/index.m3u8"
+      },
+      {
+        "name": "Hum TV",
+        "url": "https://g4wlkwx8l23a-hls-live.5centscdn.com/HUM/271ddf829afeece44d8732757fba1a66.sdp/playlist_dvr.m3u8"
+      },
+      {
+        "name": "Hum TV SD",
+        "url": "https://cdn4.mjunoon.tv:8087/streamtest/82M/chunks.m3u8"
+      },
+      {
+        "name": "Jeremiah TV",
+        "url": "https://x.streamablecloud.com/stream/hls/jeremiahtv/index.m3u8"
+      },
+      {
+        "name": "Kay2 HD",
+        "url": "http://103.250.28.74:8000/play/a027/index.m3u8"
+      },
+      {
+        "name": "Lahore Rang",
+        "url": "http://103.250.28.74:8000/play/a01q/index.m3u8"
+      },
+      {
+        "name": "Mashriq TV",
+        "url": "http://103.250.28.74:8000/play/a02s/index.m3u8"
+      },
+      {
+        "name": "One Golf",
+        "url": "http://162.250.201.58:6211/pk/ONEGOLF/index.m3u8"
+      },
+      {
+        "name": "Pashto 1",
+        "url": "http://103.250.28.74:8000/play/a00t/index.m3u8"
+      },
+      {
+        "name": "Play Entertainment",
+        "url": "http://103.250.28.74:8000/play/a050/index.m3u8"
+      },
+      {
+        "name": "SAB TV",
+        "url": "https://ml-pull-dvc-myco.io:2096/SAB_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8"
+      },
+      {
+        "name": "Such TV",
+        "url": "https://video.primexsports.com/suchnews/live/playlist.m3u8"
+      }
+    ],
+    "News": [
+      {
+        "name": "24 News HD",
+        "url": "https://cdn4.mjunoon.tv:8087/streamtest/146M/chunks.m3u8"
+      },
+      {
+        "name": "365 News",
+        "url": "https://cdn4.mjunoon.tv:8087/streamtest/140M/chunks.m3u8"
+      },
+      {
+        "name": "7 News",
+        "url": "https://sscsott.com/7news/live/index.m3u8"
+      },
+      {
+        "name": "92 News HD",
+        "url": "http://92news.vdn.dstreamone.net/92newshd/92hd/playlist.m3u8"
+      },
+      {
+        "name": "Aaj News",
+        "url": "http://115.42.65.142:9981/stream/channelid/750987367"
+      },
+      {
+        "name": "ABN News",
+        "url": "http://115.42.65.142:9981/stream/channelid/966869781"
+      },
+      {
+        "name": "Aik News SD",
+        "url": "https://s2.ideationtec.live/Pnn/Pnn.m3u8?token=KsR3k27_sH3n-2"
+      },
+      {
+        "name": "ARY News",
+        "url": "https://cdn07lhr.tamashaweb.com:8087/jazzauth/vsat-arynews-abr/live/vsat-arynews-H/chunks_dvr_timeshift-0-3600.m3u8"
+      },
+      {
+        "name": "Dunya News",
+        "url": "https://imob.dunyanews.tv/livehd/ngrp:dunyalivehd_2_all/playlist.m3u8"
+      },
+      {
+        "name": "Hum News",
+        "url": "http://103.86.135.164:9981/stream/channelid/2024790699?profile=pass&ticket=CAC87CD3CF8747A13FB03B91C9BE860F93CD615C"
+      },
+      {
+        "name": "Kohenoor News",
+        "url": "http://103.250.28.74:8000/play/a00r/index.m3u8"
+      },
+      {
+        "name": "KTN News",
+        "url": "https://vodzong.mjunoon.tv:8087/streamtest/KTNNews-151/playlist.m3u8"
+      },
+      {
+        "name": "Lahore News",
+        "url": "https://vcdn.dunyanews.tv/lahorelive/ngrp:lnews_1_all/playlist.m3u8"
+      },
+      {
+        "name": "M News",
+        "url": "https://cdn.rabta.stream/M-News/index.m3u8"
+      },
+      {
+        "name": "Metro1 News",
+        "url": "http://103.250.28.74:8000/play/a04u/index.m3u8"
+      },
+      {
+        "name": "Neo News",
+        "url": "http://103.250.28.74:8000/play/a01p/index.m3u8"
+      },
+      {
+        "name": "News One",
+        "url": "https://vodzong.mjunoon.tv:8087/streamtest/NEWS1-128/playlist.m3u8"
+      },
+      {
+        "name": "ON News HD",
+        "url": "http://103.250.28.74:8000/play/a046/index.m3u8"
+      },
+      {
+        "name": "PTV News",
+        "url": "http://103.250.28.74:8000/play/a017/index.m3u8"
+      },
+      {
+        "name": "Public News",
+        "url": "http://103.250.28.74:8000/play/a04g/index.m3u8"
+      },
+      {
+        "name": "Roze News",
+        "url": "http://103.250.28.74:8000/play/a01k/index.m3u8"
+      },
+      {
+        "name": "Sindh TV News",
+        "url": "http://103.250.28.74:8000/play/a00v/index.m3u8"
+      },
+      {
+        "name": "Sky News Urdu",
+        "url": "https://lbgo.bozztv.com/ssh101/ssh101/skynews/playlist.m3u8"
+      },
+      {
+        "name": "Suno News HD",
+        "url": "http://103.250.28.74:8000/play/a02a/index.m3u8"
+      },
+      {
+        "name": "VSH News",
+        "url": "http://103.250.28.74:8000/play/a00w/index.m3u8"
+      }
+    ],
+    "Sports": [
+      {
+        "name": "M Sports",
+        "url": "https://cdn.rabta.stream/M-Sports/index.m3u8"
+      },
+      {
+        "name": "PK Sports",
+        "url": "https://lbgo.bozztv.com/ssh101/ssh101/pksportshd/playlist.m3u8"
+      },
+      {
+        "name": "PTV Sports",
+        "url": "http://103.250.28.74:8000/play/a019/index.m3u8"
+      },
+      {
+        "name": "Ten Sports Pakistan",
+        "url": "http://121.91.61.106:8000/play/a04h/index.m3u8"
+      }
+    ],
+    "Movies/Dramas": [
+      {
+        "name": "BS Film",
+        "url": "https://lbgo.bozztv.com/ssh101/ssh101/bsfilm/playlist.m3u8"
+      },
+      {
+        "name": "Filmax",
+        "url": "https://s3.ideationtec.live/Filmax/Filmax.m3u8"
+      },
+      {
+        "name": "Filmazia",
+        "url": "http://103.250.28.74:8000/play/a02k/index.m3u8"
+      }
+    ],
+    "Other": []
+  },
+  "Documentary": [
+    
+  ]
+}
