@@ -1,0 +1,19 @@
+{
+  "name": "Sky IPTV",
+  "short_name": "Sky IPTV",
+  "description": "Your personal TV lounge",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f7fbff",
+  "theme_color": "#0ea5e9",
+  "icons": [
+    {
+      "src": "/sky-iptv-logo-5.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

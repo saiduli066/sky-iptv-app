@@ -116,13 +116,8 @@ function Player({ channel }: { channel: ChannelRecord }) {
     };
 
     setStatus("loading");
-    setMessage(isHttpStream(channel.url) ? "This stream is blocked because it uses HTTP." : `Connecting to ${channel.name}...`);
-
-    if (isHttpStream(channel.url)) {
-      return () => {
-        disposed = true;
-      };
-    }
+    setMessage(`Connecting to ${channel.name}...`);
+    const streamUrl = isHttpStream(channel.url) ? `/api/stream?url=${encodeURIComponent(channel.url)}` : channel.url;
 
     const onPlaying = () => {
       setStatus("playing");
@@ -156,10 +151,10 @@ function Player({ channel }: { channel: ChannelRecord }) {
       hls.on(Hls.Events.ERROR, (_event, data) => {
         if (data.fatal) fail("The stream could not be loaded. It may be offline or blocked.");
       });
-      hls.loadSource(channel.url);
+      hls.loadSource(streamUrl);
       hls.attachMedia(video);
     } else {
-      video.src = channel.url;
+      video.src = streamUrl;
       video.load();
     }
 
