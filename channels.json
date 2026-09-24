@@ -55,10 +55,7 @@
         "name": "NTV",
         "url": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8"
       },
-      {
-        "name": "Duronto TV",
-        "url": "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8"
-      },
+     
       {
         "name": "Deshi TV",
         "url": "https://deshitv.deshitv24.net/live/myStream/playlist.m3u8"
@@ -465,5 +462,15 @@
   },
   "Documentary": [
     
+  ],
+  "Cartoon": [
+    {
+      "name": "Duronto TV",
+      "url": "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8"
+    },
+    {
+      "name": "Mr. Bean Animated",
+      "url": "https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8"
+    }
   ]
 }

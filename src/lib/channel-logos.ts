@@ -1,7 +1,8 @@
 import type { ChannelRecord } from "@/types/channel";
 
 type LogoAsset = {
-  country: string;
+  country?: string;
+  category?: string;
   name: string;
   file: string;
 };
@@ -13,7 +14,7 @@ const logoAssets: LogoAsset[] = [
   { country: "Bangladesh", name: "Deshi TV", file: "Deshi TV.png" },
   { country: "Bangladesh", name: "DBC News", file: "DBC News.png" },
   { country: "Bangladesh", name: "Deen TV", file: "Deen TV.png" },
-  { country: "Bangladesh", name: "Duronto TV", file: "Duronto TV.png" },
+  { category: "Cartoon", name: "Duronto TV", file: "Duronto TV.png" },
   { country: "Bangladesh", name: "Ekhon TV", file: "Ekhon TV.png" },
   { country: "Bangladesh", name: "Ekushey TV", file: "Ekushey TV.png" },
   { country: "Bangladesh", name: "Gazi TV", file: "Gazi TV.png" },
@@ -70,6 +71,11 @@ const logoAssets: LogoAsset[] = [
   { country: "India", name: "Zee Bangla", file: "Zee Bangla HD.png" },
   { country: "India", name: "Zee Bangla Sonar", file: "Zee Bangla Sonar.png" },
   { country: "India", name: "Zee Cinema", file: "Zee cinema.png" },
+  {
+    category: "Cartoon",
+    name: "Mr. Bean Animated",
+    file: "Mr._Bean_Animated.webp",
+  },
 ];
 
 function normalize(value: string): string {
@@ -85,26 +91,48 @@ function normalize(value: string): string {
 }
 
 function logoUrl(asset: LogoAsset): string {
-  return `/channel-logos/${encodeURIComponent(asset.country.toLowerCase())}/${encodeURIComponent(asset.file)}`;
+  const folder = asset.category ?? asset.country;
+  if (!folder) return "";
+  return `/channel-logos/${encodeURIComponent(folder.toLowerCase())}/${encodeURIComponent(asset.file)}`;
 }
 
 const logoIndex = new Map<string, LogoAsset>();
 
 logoAssets.forEach((asset) => {
-  logoIndex.set(`${normalize(asset.country)}:${normalize(asset.name)}`, asset);
+  if (asset.country) {
+    logoIndex.set(
+      `${normalize(asset.country)}:${normalize(asset.name)}`,
+      asset,
+    );
+  }
+  if (asset.category) {
+    logoIndex.set(
+      `category:${normalize(asset.category)}:${normalize(asset.name)}`,
+      asset,
+    );
+  }
 });
 
 export function getChannelLogo(channel: ChannelRecord): string | undefined {
-  const country = channel.country ?? channel.groupPath[0];
-  if (!country) return undefined;
+  const country = channel.country;
+  const category = channel.category;
+  if (!country && !category) return undefined;
 
-  const countryKey = normalize(country);
   const channelKey = normalize(channel.name);
-  const direct = logoIndex.get(`${countryKey}:${channelKey}`);
+  const countryKey = country ? normalize(country) : undefined;
+  const direct = countryKey
+    ? logoIndex.get(`${countryKey}:${channelKey}`)
+    : undefined;
   if (direct) return logoUrl(direct);
 
+  const categoryDirect = category
+    ? logoIndex.get(`category:${normalize(category)}:${channelKey}`)
+    : undefined;
+  if (categoryDirect) return logoUrl(categoryDirect);
+
   const countryAssets = logoAssets.filter(
-    (asset) => normalize(asset.country) === countryKey,
+    (asset) =>
+      countryKey && asset.country && normalize(asset.country) === countryKey,
   );
   const fuzzy = countryAssets.find((asset) => {
     const assetKey = normalize(asset.name);

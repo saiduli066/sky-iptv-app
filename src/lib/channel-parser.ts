@@ -4,12 +4,14 @@ import type { CatalogNode, ChannelRecord, RawChannel } from "@/types/channel";
 const catalog = rawCatalog as unknown as CatalogNode;
 
 export function slugify(value: string): string {
-  return value
-    .normalize("NFKD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "") || "channel";
+  return (
+    value
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "") || "channel"
+  );
 }
 
 function isRawChannel(value: unknown): value is RawChannel {
@@ -22,10 +24,13 @@ function isChannelArray(value: unknown): value is RawChannel[] {
   return Array.isArray(value) && value.every(isRawChannel);
 }
 
-function findField(path: string[], field: "country" | "language" | "category"): string | undefined {
-  if (field === "country") return path[0];
+function findField(
+  path: string[],
+  field: "country" | "language" | "category",
+): string | undefined {
+  if (field === "country") return path.length >= 2 ? path[0] : undefined;
   if (field === "language") return path.length >= 3 ? path[1] : undefined;
-  return path.length >= 2 ? path[path.length - 1] : undefined;
+  return path[path.length - 1];
 }
 
 function collect(node: unknown, path: string[], output: ChannelRecord[]): void {
@@ -60,10 +65,13 @@ export function parseChannelCatalog(): ChannelRecord[] {
 export const channels = parseChannelCatalog();
 
 export function getTopLevelGroups(): string[] {
-  if (!catalog || typeof catalog !== "object" || Array.isArray(catalog)) return [];
+  if (!catalog || typeof catalog !== "object" || Array.isArray(catalog))
+    return [];
   return Object.keys(catalog);
 }
 
 export function getGroupChannels(path: string[]): ChannelRecord[] {
-  return channels.filter((channel) => path.every((part, index) => channel.groupPath[index] === part));
+  return channels.filter((channel) =>
+    path.every((part, index) => channel.groupPath[index] === part),
+  );
 }
