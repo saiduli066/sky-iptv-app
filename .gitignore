@@ -2,3 +2,8 @@ node_modules
 .next
 out
 .env*
+README_APP.md
+03_ENGINEERING_RULES.md
+04_DATA_AND_CONTENT_RULES.md
+02_UI_UX_GUIDE.md
+01_ARCHITECTURE.md

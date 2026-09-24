@@ -8,7 +8,7 @@ export function isHlsUrl(url: string): boolean {
 
 export function isHttpStream(url: string): boolean {
   try {
-    return new URL(url).protocol === "http:" && typeof window !== "undefined" && window.location.protocol === "https:";
+    return new URL(url).protocol === "http:";
   } catch {
     return false;
   }
